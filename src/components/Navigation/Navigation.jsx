@@ -1,22 +1,9 @@
-// import { NavLink } from "react-router-dom";
-// import clsx from "clsx";import css from "./Navigation.module.css";
-
-// const getLinkClass = ({ isActive }) => {
-//   return clsx(css.link, isActive && css.active);
-// };
-
-// Navigation.jsx
-import { NavLink } from 'react-router-dom';
-import clsx from 'clsx';
-import css from './Navigation.module.css';
+import { NavLink } from "react-router-dom";
+import clsx from "clsx";import css from "./Navigation.module.css";
 
 const getLinkClass = ({ isActive }) => {
-    return clsx({
-        [css.active]: isActive,
-        [css.link]: !isActive,
-    });
+  return clsx(css.link, isActive && css.active);
 };
-
 
 export default function Navigation() {
     return (

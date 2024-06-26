@@ -2,7 +2,7 @@ import axios from "axios";
 axios.defaults.baseURL = "https://api.themoviedb.org";
 
 
-  // movies today
+// movies today
 export const getMovies = async (page) => {
 
 const url =
