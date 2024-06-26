@@ -1,3 +1,5 @@
+
+
 import css from "./MoiveCard.module.css";
 import clsx from "clsx";
 
